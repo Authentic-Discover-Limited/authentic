@@ -1,0 +1,4 @@
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/authent2/public_html/
+ - /bin/cp * $DEPLOYPATH
